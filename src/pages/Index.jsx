@@ -10,10 +10,10 @@ const Index = () => {
           <Flex justify="space-between" align="center">
             <Heading as="h1" size="lg">ElectroShop</Heading>
             <Flex>
-              <Link href="#" mx={2}>Home</Link>
-              <Link href="#" mx={2}>Products</Link>
-              <Link href="#" mx={2}>About Us</Link>
-              <Link href="#" mx={2}>Contact</Link>
+              <Link href="/" mx={2}>Home</Link>
+              <Link href="/products" mx={2}>Products</Link>
+              <Link href="/about" mx={2}>About Us</Link>
+              <Link href="/contact" mx={2}>Contact</Link>
             </Flex>
           </Flex>
         </Container>
@@ -34,7 +34,7 @@ const Index = () => {
           <Heading as="h3" size="xl" mb={8} textAlign="center">Featured Products</Heading>
           <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
             <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
-              <Image src="https://via.placeholder.com/300" alt="Product 1" />
+              <Image src="https://via.placeholder.com/300" alt="Product 1 Image" />
               <Box p={6}>
                 <Heading as="h4" size="md" mb={2}>Product 1</Heading>
                 <Text mb={4}>High-quality electronic product</Text>
@@ -42,7 +42,7 @@ const Index = () => {
               </Box>
             </Box>
             <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
-              <Image src="https://via.placeholder.com/300" alt="Product 2" />
+              <Image src="https://via.placeholder.com/300" alt="Product 2 Image" />
               <Box p={6}>
                 <Heading as="h4" size="md" mb={2}>Product 2</Heading>
                 <Text mb={4}>High-quality electronic product</Text>
@@ -50,7 +50,7 @@ const Index = () => {
               </Box>
             </Box>
             <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
-              <Image src="https://via.placeholder.com/300" alt="Product 3" />
+              <Image src="https://via.placeholder.com/300" alt="Product 3 Image" />
               <Box p={6}>
                 <Heading as="h4" size="md" mb={2}>Product 3</Heading>
                 <Text mb={4}>High-quality electronic product</Text>
